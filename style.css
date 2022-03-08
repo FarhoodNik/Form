@@ -134,6 +134,7 @@ input[type=text]:focus,
   select:focus, textarea:focus {
     background-color: rgb(221, 198, 224);
     color: rgb(17, 16, 16);
+    transition: background-color 500ms linear;
     
   }
 @media screen and (min-width: 768px){
